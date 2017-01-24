@@ -1,0 +1,144 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+
+	}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+
+    /*  Part 1:   */
+    .pixfort_form_11 .htext_style{margin-right: 0px;        }
+
+     .pixfort_form_11 .video_style iframe {width: 100%; height: 240px ; margin-left: auto; margin-right: auto;}
+
+        .pixfort_form_11 .rights_st {float: none;text-align: center;   }
+        .pixfort_form_11 .likes_st { margin: 0; padding-right: 0px;  padding-top: 25px; float: none; text-align: center; }
+        .pixfort_form_11 .socbuttons {text-align: center;  }
+
+
+
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+
+    .pixfort_form_11 .video_style iframe {width: 100%; height: 240px ; margin-left: auto; margin-right: auto;}
+
+
+        .pixfort_form_11 .rights_st {float: none;text-align: center;   }
+        .pixfort_form_11 .likes_st { margin: 0; padding-right: 0px;  padding-top: 25px; float: none; text-align: center; }
+        .pixfort_form_11 .socbuttons {text-align: center;   }
+
+
+
+		}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+     /*  Part 1:   */
+    .pixfort_form_11 .htext_style{margin-right: 0px;        }
+    .pixfort_form_11 .text_zone {max-width:100%;  }
+    .pixfort_form_11 .TT1, .pixfort_form_11 .TT2 {text-align: center; }
+    .pixfort_form_11 .segment {margin-left: auto; margin-right: auto;       }
+    .pixfort_form_11 .check_st{text-align: center;  }
+    .pixfort_form_11 .apply_btn  {text-align: center;  }
+    .pixfort_form_11 .picture_zone img {width:100%; float: none;     }
+
+
+
+     /*  Part 2:   */
+
+     .pixfort_form_11 .title_st, .pixfort_form_11 .txt_st {padding-left: 0px; text-align: center;      }
+     .pixfort_form_11 .video_style iframe {width: 100%; height: 240px ; margin-left: auto; margin-right: auto;}
+
+      .pixfort_form_11 .headtext_style, .pixfort_form_11 .subtext_style { text-align: center;  }
+      .pixfort_form_11 .subtext_style {margin-left: auto; margin-right: auto;          }
+
+
+     .pixfort_form_11 .text_input {padding-left: 0px; padding-right: 0px; text-align: center; float: none;
+                    width:100%; margin-left: auto; margin-right: auto;  }
+     .pixfort_form_11 .contact_st fieldset{width: 90%;        }
+     .pixfort_form_11 .note_st {text-align: center;  }
+
+      /*  Part 3:   */
+     .pixfort_form_11 .rights_st {float: none;text-align: center;   }
+     .pixfort_form_11 .likes_st { margin: 0; padding-right: 0px;  padding-top: 25px; float: none; text-align: center; }
+     .pixfort_form_11 .socbuttons {text-align: center;  }
+
+
+
+    }
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+
+    /*  Part 1:   */
+    .pixfort_form_11 .htext_style{margin-right: 0px;        }
+
+
+     /*  Part 2:   */
+
+     .pixfort_form_11 .title_st, .pixfort_form_11 .txt_st {padding-left: 0px; text-align: center;      }
+
+     .pixfort_form_11 .video_style iframe {width: 100%; height: 170px ; margin-left: auto; margin-right: auto; margin-bottom: 20px;}
+
+      .pixfort_form_11 .headtext_style, .pixfort_form_11 .subtext_style{ text-align: center;  }
+
+     .pixfort_form_11 .text_input {padding-left: 0px; padding-right: 0px; text-align: center; float: none;
+                    width:100%; margin-left: auto; margin-right: auto;  }
+     .pixfort_form_11 .contact_st fieldset{width: 90%;        }
+     .pixfort_form_11 .note_st {text-align: center;  }
+
+
+     /*  Part 3:   */
+     .pixfort_form_11 .rights_st {float: none;text-align: center;    }
+     .pixfort_form_11 .likes_st { margin: 0; padding-right: 0px;  padding-top: 25px; float: none; text-align: center; }
+     .pixfort_form_11 .socbuttons {text-align: center;  float: none;}
+     .pixfort_form_11 .soc_icons {float: none;text-align: center; }
+
+	}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/
