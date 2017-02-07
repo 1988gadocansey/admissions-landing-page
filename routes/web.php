@@ -15,6 +15,9 @@
         return view('welcome');
     })->middleware('guest');
     
+     Route::get('/send', function () {
+        return view('code');
+    })->middleware('guest');
     
    Route::post('foreign/validate/code', 'HomeController@index');
    

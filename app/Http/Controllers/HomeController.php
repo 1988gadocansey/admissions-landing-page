@@ -77,17 +77,17 @@ $email_message = "
             <p>This is an automatically generated email message. Please do not reply
                 to this mail directly.</p>
                 <p>If further assistance is required, please send an email to
-info@ttu.edu.gh</p>";
+info@ttu.edu.gh</p><p><a href='application.ttuportal.com' target='_'>CLICK TO GO TO ADMISSIONS SYSTEM</a></p>";
  
     if (@mail($email, "Takoradi Technical University Admissions", $email_message, $headers)) {
-         return redirect("/")->with("success"," <span style='font-weight:bold;font-size:13px;'>Code successfully sent to $email</span> ");
-
+        
 
      }
-           
+         return redirect("/send")->with("success"," <span style='font-weight:bold;font-size:13px;'><h3>PIN CODE = $pin and SERIAL NO = $serial</h3></span><span> <br/>It was also sent to your mail. Go to  http://application.ttuportal.com to fill your registration form</span> ");
+   
        }
        else{
-            return redirect("/students")->with("error"," <span style='font-weight:bold;font-size:13px;'>Whoops! Error in sending email. Try again later</span> ");
+            return redirect("/send")->with("error"," <span style='font-weight:bold;font-size:13px;'>Whoops! Error in sending email. Try again later</span> ");
       
        }
         
